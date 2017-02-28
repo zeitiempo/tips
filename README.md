@@ -1,6 +1,6 @@
 # tips
 useful or useless tips
-# notice for installing mac series os via vmware #
+# 1. notice for installing mac series os via vmware #
 - close vmware service and install unlocker208 so vmware can recognize mac series os
 - it is a pity that .iso may not be supported, only .crf is supported, which should be generated from .dmg
 - after setting mac vm, open vm dic and find .vmx, after `smc.present = "TRUE"` modify `smc.version = 0`

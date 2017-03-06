@@ -32,3 +32,12 @@ useful or useless tips
 
 # 3. 英语语料库 #
 - http://corpus.byu.edu/
+
+Corpus of Contemporary American English (COCA)	400 million words	1990 - 2009
+Corpus of Historical American English (COHA; Summer 2009 beta)	400 million words	1810s - 2000s
+BYU-BNC: British National Corpus	100 million words	1980s - 1993
+TIME Corpus of American English	100 million words	1920s - 2000s
+BYU-OED: Oxford English Dictionary	37 million words	1000s - 2000s
+Corpus del Español	100 million words	1200s - 1900s
+Corpus do Português	45 million words	1300s - 1900s
+

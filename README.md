@@ -6,6 +6,7 @@ useful or useless tips
 - after setting mac vm, open vm dic and find .vmx, after `smc.present = "TRUE"` modify `smc.version = 0`
 - then it may be easier to finish the installation
 - after getting into mac vm, it may be slow, download [beamoff](http://files.cnblogs.com/files/yipu/beamoff.zip) and install it to address the problem
+
 # 2. 中国20大知名语料库 #
 1. 中央研究院近代汉语标记语料库：http://www.sinica.edu.tw/Early_Mandarin/
 2. 中央研究院汉籍电子文献（瀚典全文检索系统）http://www.sinica.edu.tw/ftms-bin/ftmsw3

@@ -40,3 +40,22 @@ BYU-OED: Oxford English Dictionary	37 million words	1000s - 2000s
 Corpus del Español	100 million words	1200s - 1900s
 Corpus do Português	45 million words	1300s - 1900s
 
+# 4. address the problem of 'urlopen error errno 10060' #
+  def getUrl_multiTry(url):  
+      user_agent ='"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"'  
+      headers = { 'User-Agent' : user_agent }  
+      maxTryNum=10  
+      for tries in range(maxTryNum):  
+          try:  
+              req = urllib2.Request(url, headers = headers)   
+              html=urllib2.urlopen(req).read()  
+              break  
+          except:  
+              if tries <(maxTryNum-1):  
+                  continue  
+              else:  
+                  logging.error("Has tried %d times to access url %s, all failed!",maxTryNum,url)  
+                  break  
+
+
+      return html  

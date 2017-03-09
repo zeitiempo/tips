@@ -59,3 +59,12 @@ Corpus do Português	45 million words	1300s - 1900s
 
 
         return html  
+
+# 5. Ubuntu14.04（16.04も可能）とPython2でMecabを使う方法 #
+1. Mecabのインストール
+> sudo apt-get install mecab mecab-ipadic-utf8
+2. swigとlibmecab-devのインストール
+> sudo apt-get install swig
+> sudo apt-get install libmecab-dev
+3. mecab-python-0.996のインストール
+

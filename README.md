@@ -79,5 +79,5 @@ Corpus do Português	45 million words	1300s - 1900s
 
 印象中用notepad写java是很久以前的事了，99%以上的情况都是用些workbench。最近想试试最原始的，可是忽略了一个非常微小的细节以致于编译失败。务必要记住，在写环境变量CLASSPATH的时候最后一定要加分号，像这样：
 
-> %JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar*;*
+> %JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar**;**
 

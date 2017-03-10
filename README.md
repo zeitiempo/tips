@@ -100,4 +100,4 @@ Corpus do Português	45 million words	1300s - 1900s
 |m|number|一, 第一|v|verb|跑, 学习|
 |n|general noun|苹果|wp|punctuation|，。！|
 |nd|direction noun|右侧|ws|foreign words|CPU|
-nh	person name	杜甫, 汤姆	x	non-lexeme	萄, 翱
+|nh|person name|杜甫, 汤姆|x|non-lexeme|萄, 翱|

@@ -103,7 +103,7 @@ Corpus do Português	45 million words	1300s - 1900s
 |nh|person name|杜甫, 汤姆|x|non-lexeme|萄, 翱|
 
 # 8. Ubuntu内的firefox装flash #
-- 下载flash for linux(tar.gz)
+- 下载flash for linux(tar.gz)并解压
 - libflashplayer.so放到usr/lib/firefox-addons/plugins
 
 

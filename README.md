@@ -68,7 +68,6 @@ Corpus do Português	45 million words	1300s - 1900s
 2. swigとlibmecab-devのインストール
 
 > sudo apt-get install swig
-
 > sudo apt-get install libmecab-dev
 
 3. mecab-python-0.996のインストール
@@ -106,4 +105,37 @@ Corpus do Português	45 million words	1300s - 1900s
 - 下载flash for linux(tar.gz)并解压
 - libflashplayer.so放到usr/lib/firefox-addons/plugins
 
+# 9. Ubuntu的一些可附加内容 #
+
+Launcher置于底部：
+
+> gsettings set com.canonical.Unity.Launcher launcher-position Bottom
+
+点击Luancher上的图标完成放大缩小：
+
+> gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true
+
+JDK：
+
+> sudo add-apt-repository ppa:webupd8team/java
+> sudo apt-get update
+> sudo apt-get install oracle-java8-installer 
+
+sublime text3：
+
+> sudo add-apt-repository ppa:webupd8team/sublime-text-3
+> sudo apt-get update
+> sudo apt-get install sublime-text
+
+经典菜单指示器：
+
+> sudo add-apt-repository ppa:diesch/testing 
+> sudo apt-get update 
+> sudo apt-get install classicmenu-indicator
+
+系统指示器SysPeek：
+
+> sudo add-apt-repository ppa:nilarimogard/webupd8
+> sudo apt-get update
+> sudo apt-get install syspeek
 

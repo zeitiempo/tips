@@ -166,7 +166,7 @@ Corpus do Português	45 million words	1300s - 1900s
 
 - apt装libtool、m4、automake、autoconf（如果没装的话）
 
-- #
+- 装liblbfgs
 
 > cd liblbfgs   
 
@@ -176,7 +176,7 @@ Corpus do Português	45 million words	1300s - 1900s
 
 > make && make install
 
-- #
+- 装crfsuite
 
 > cd crfsuite
 
@@ -188,9 +188,9 @@ Corpus do Português	45 million words	1300s - 1900s
 
 - 装python-dev或python3-dev（如果没装的话）
 
-- #
+- 装crfsuite-python
 
-> cd swig/python/  
+> cd swig/python/  
 
 > ./prepare.sh  
 

@@ -165,7 +165,8 @@ Corpus do Português	45 million words	1300s - 1900s
 - 从github的chokkann上把liblbfgs和crfsuite弄下来
 
 - apt装libtool、m4、automake、autoconf（如果没装的话）
--
+
+- #
 
 > cd liblbfgs   
 
@@ -175,7 +176,7 @@ Corpus do Português	45 million words	1300s - 1900s
 
 > make && make install
 
--
+- #
 
 > cd crfsuite
 
@@ -187,7 +188,7 @@ Corpus do Português	45 million words	1300s - 1900s
 
 - 装python-dev或python3-dev（如果没装的话）
 
--
+- #
 
 > cd swig/python/  
 

@@ -159,3 +159,42 @@ Corpus do Português	45 million words	1300s - 1900s
 > sudo chown 当前登录用户 *.desktop
 
 > chmod a+x *.desktop
+
+# 10. ubuntu下装crfsuite #
+
+- 从github的chokkann上把liblbfgs和crfsuite弄下来
+
+- apt装libtool、m4、automake、autoconf（如果没装的话）
+
+- 装liblbfgs
+
+> cd liblbfgs   
+
+> ./autogen.sh  
+
+> ./configure  
+
+> make && make install
+
+- 装crfsuite
+
+> cd crfsuite
+
+> ./autogen.sh  
+
+> ./configure  
+
+> make && make install  
+
+- 装python-dev或python3-dev（如果没装的话）
+
+- 装crfsuite-python
+
+> cd swig/python/  
+
+> ./prepare.sh  
+
+> python setup.py build_ext --include-dir=/usr/local/include --library-dirs=/usr/local/lib -R /usr/local/lib  
+
+> python setup.py install
+

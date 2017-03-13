@@ -159,3 +159,18 @@ Corpus do Português	45 million words	1300s - 1900s
 > sudo chown 当前登录用户 *.desktop
 
 > chmod a+x *.desktop
+
+# 10. ubuntu下装crfsuite #
+
+- 从github的chokkann上把liblbfgs和crfsuite弄下来
+
+- apt装libtool、m4、automake、autoconf
+
+> cd liblbfgs   
+
+> ./autogen.sh  
+
+> ./configure  
+
+> make && make install
+

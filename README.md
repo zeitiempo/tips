@@ -198,7 +198,7 @@ Corpus do Português	45 million words	1300s - 1900s
 
 > python setup.py install
 
-# 11. 国会会議検索システム #
+# 11. 日语语料库 #
 
-- http://kokkai.ndl.go.jp
+- 国会会議検索システム：http://kokkai.ndl.go.jp
 

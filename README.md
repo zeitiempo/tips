@@ -202,3 +202,10 @@ Corpus do Português	45 million words	1300s - 1900s
 
 - 国会会議検索システム：http://kokkai.ndl.go.jp
 
+# 12. boost依赖 #
+
+mpi-default-dev libicu-dev python-dev python3-dev libbz2-dev zlib1g-dev
+
+./bootstrap.sh --with-toolset=clang
+	
+./b2 install --build-type=complete --layout=versioned threading=multi --prefix="/usr/lib/boost-1.60"

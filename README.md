@@ -202,3 +202,20 @@ Corpus do Português	45 million words	1300s - 1900s
 
 - 国会会議検索システム：http://kokkai.ndl.go.jp
 
+- 茶漉一般公開サイト：http://telldev.cla.purdue.edu/chakoshi/public.html
+
+# 12. boost依赖、安装、环境变量 #
+
+mpi-default-dev libicu-dev python-dev python3-dev libbz2-dev zlib1g-dev
+
+./bootstrap.sh --with-toolset=clang
+	
+./b2 install --build-type=complete --layout=versioned threading=multi --prefix="/usr/lib/boost-1.60"
+
+export C_INCLUDE_PATH=/usr/lib/boost-1.60/include/boost-1_60:$C_INCLUDE_PATH
+
+export CPLUS_INCLUDE_PATH=/usr/lib/boost-1.60/include/boost-1_60:$CPLUS_INCLUDE_PATH
+
+export LD_LIBRARY_PATH=/usr/lib/boost-1.60/lib:$LD_LIBRARY_PATH
+
+export LIBRARY_PATH=/usr/lib/boost-1.60/lib:$LIBRARY_PATH

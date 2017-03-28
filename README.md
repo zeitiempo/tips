@@ -219,3 +219,8 @@ export CPLUS_INCLUDE_PATH=/usr/lib/boost-1.60/include/boost-1_60:$CPLUS_INCLUDE_
 export LD_LIBRARY_PATH=/usr/lib/boost-1.60/lib:$LD_LIBRARY_PATH
 
 export LIBRARY_PATH=/usr/lib/boost-1.60/lib:$LIBRARY_PATH
+
+# 13. 如何让win的cmd能够运行linux终端的一些常用指令 #
+
+Cygwin:http://www.cygwin.com/
+

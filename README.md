@@ -224,3 +224,4 @@ export LIBRARY_PATH=/usr/lib/boost-1.60/lib:$LIBRARY_PATH
 
 Cygwin:http://www.cygwin.com/
 
+设置环境变量

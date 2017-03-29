@@ -238,7 +238,7 @@ export LIBRARY_PATH=/usr/lib/boost-1.60/lib:$LIBRARY_PATH
 
 - 用户文件夹下新建pip文件夹，pip下新建pip.ini，添加：
 
-    `[global]
+    [global]
     
     index-url=http://pypi.douban.com/simple
     
@@ -246,7 +246,7 @@ export LIBRARY_PATH=/usr/lib/boost-1.60/lib:$LIBRARY_PATH
     
     disable-pip-version-check=true
     
-    timeout=120`
+    timeout=120
 
 - 输入`python -V` `python3 -V` `pip -V` `pip3 -V` 测试
 

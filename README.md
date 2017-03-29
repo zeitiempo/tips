@@ -222,6 +222,37 @@ export LIBRARY_PATH=/usr/lib/boost-1.60/lib:$LIBRARY_PATH
 
 # 13. 如何让win的cmd能够运行linux终端的一些常用指令 #
 
-Cygwin:http://www.cygwin.com/
+- Cygwin:http://www.cygwin.com/
 
-设置环境变量
+- 设置环境变量
+
+# 14. win下python2与3共存以及pip、pip3的设置 #
+
+- 安装python2、python3
+
+- 检查4个环境变量
+
+- 进到python3下目录，python.exe更名为python3.exe
+
+- 删除python3下script下的pip.exe
+
+- 用户文件夹下新建pip文件夹，pip下新建pip.ini，添加：
+
+    [global]
+    
+    index-url=http://pypi.douban.com/simple
+    
+    trusted-host=pypi.douban.com
+    
+    disable-pip-version-check=true
+    
+    timeout=120
+
+- 输入`python -V` `python3 -V` `pip -V` `pip3 -V` 测试
+
+- 如果pip3有问题，则`python3 -m pip install -U pip`
+
+# 15. win10下配置tensorflow #
+
+- http://blog.csdn.net/sb19931201/article/details/53648615
+

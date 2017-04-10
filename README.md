@@ -326,3 +326,13 @@ export LIBRARY_PATH=/usr/lib/boost-1.60/lib:$LIBRARY_PATH
 
 - 维特比算法（Viterbi algorithm）——寻找隐藏状态最有可能序列的动态规划算法，这种序列被称为维特比路径，其结果是一系列可以观察到的事件，特别是在隐藏的Markov模型中。
 
+# 17. kali源 #
+
+	#中科大kali源
+	deb http://mirrors.ustc.edu.cn/kali sana main non-free contrib
+	deb http://mirrors.ustc.edu.cn/kali-security/ sana/updates main contrib non-free
+	deb-src http://mirrors.ustc.edu.cn/kali-security/ sana/updates main contrib non-free
+	#阿里云kali源
+	deb http://mirrors.aliyun.com/kali sana main non-free contrib
+	deb http://mirrors.aliyun.com/kali-security/ sana/updates main contrib non-free
+	deb-src http://mirrors.aliyun.com/kali-security/ sana/updates main contrib non-free

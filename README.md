@@ -336,3 +336,10 @@ export LIBRARY_PATH=/usr/lib/boost-1.60/lib:$LIBRARY_PATH
 	deb http://mirrors.aliyun.com/kali sana main non-free contrib
 	deb http://mirrors.aliyun.com/kali-security/ sana/updates main contrib non-free
 	deb-src http://mirrors.aliyun.com/kali-security/ sana/updates main contrib non-free
+
+# 18. 中文分词参考 #
+
+- 中文分词工具探析：http://www.cnblogs.com/en-heng/p/6225117.html
+
+- 中文分词算法总结：http://blog.csdn.net/baidu_15113429/article/details/70048945
+

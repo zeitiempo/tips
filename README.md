@@ -345,7 +345,13 @@ export LIBRARY_PATH=/usr/lib/boost-1.60/lib:$LIBRARY_PATH
 
 # 19. 页面定界 #
 
-浏览器console输入：
+- 浏览器console输入：
 
 	[].forEach.call($$("*"),function(a){a.style.outline="1px solid #"+(~~(Math.random()*(1<<24))).toString(16)})
+
+# 20. 搜索引擎汇总 #
+
+http://www.sowang.com/link.htm
+
+
 

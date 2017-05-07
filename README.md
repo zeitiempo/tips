@@ -353,8 +353,4 @@ http://www.sowang.com/link.htm
 
 http://www.jianshu.com/p/ae7c8513bb00
 
-# 21. pip UnicodeDecodeError解决方案 #
-
-`pip install --no-cache-dir [包名称]`
-
 

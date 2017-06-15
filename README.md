@@ -354,4 +354,18 @@ http://www.sowang.com/link.htm
 
 http://www.jianshu.com/p/ae7c8513bb00
 
+# 21. 常用UTF-8编码范围
 
+- ASCII：\u00-\uff
+
+- 日式标点：\u3000-\u303f
+
+- 平假名：\u3040-\u309f
+
+- 片假名：\u30a0-\u30ff
+
+- 全角标点和半宽片假名：\uff00-\uffef
+
+- 中日韩unifed象形文字-汉字常见和罕见：\u4e00-\u9fa5
+
+- 中日韩统一表意文字扩展区A -罕见汉字：\u3400-\u4dbf

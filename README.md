@@ -239,15 +239,11 @@ export LIBRARY_PATH=/usr/lib/boost-1.60/lib:$LIBRARY_PATH
 
 - 用户文件夹下新建pip文件夹，pip下新建pip.ini，添加：
 
-> [global]
-    
-> index-url=http://pypi.douban.com/simple
-    
-> trusted-host=pypi.douban.com
-    
-> disable-pip-version-check=true
-    
-> timeout=120
+	[global]   
+	index-url=http://pypi.douban.com/simple  
+	trusted-host=pypi.douban.com  
+	disable-pip-version-check=true  
+	timeout=120
 
 - 输入`python -V` `python3 -V` `pip -V` `pip3 -V` 测试
 
@@ -424,5 +420,27 @@ http://www.jianshu.com/p/ae7c8513bb00
 # 23. RGB转灰度
 
 `Gray = R * 0.299 + G * 0.587 + B * 0.114`
+
+	Gray = (R*1 + G*2 + B*1) >> 2
+	Gray = (R*2 + G*5 + B*1) >> 3
+	Gray = (R*4 + G*10 + B*2) >> 4
+	Gray = (R*9 + G*19 + B*4) >> 5
+	Gray = (R*19 + G*37 + B*8) >> 6
+	Gray = (R*38 + G*75 + B*15) >> 7
+	Gray = (R*76 + G*150 + B*30) >> 8
+	Gray = (R*153 + G*300 + B*59) >> 9
+	Gray = (R*306 + G*601 + B*117) >> 10
+	Gray = (R*612 + G*1202 + B*234) >> 11
+	Gray = (R*1224 + G*2405 + B*467) >> 12
+	Gray = (R*2449 + G*4809 + B*934) >> 13
+	Gray = (R*4898 + G*9618 + B*1868) >> 14
+	Gray = (R*9797 + G*19235 + B*3736) >> 15
+	Gray = (R*19595 + G*38469 + B*7472) >> 16
+	Gray = (R*39190 + G*76939 + B*14943) >> 17
+	Gray = (R*78381 + G*153878 + B*29885) >> 18
+	Gray = (R*156762 + G*307757 + B*59769) >> 19
+	Gray = (R*313524 + G*615514 + B*119538) >> 20
+
+`Gray = (R^2.2 * 0.2973 + G^2.2 * 0.6274 + B^2.2 * 0.0753)^(1/2.2)`
 
 

@@ -354,4 +354,71 @@ http://www.sowang.com/link.htm
 
 http://www.jianshu.com/p/ae7c8513bb00
 
+# 21. 常用UTF-8编码范围
+
+- ASCII：\u00-\uff
+
+- 日式标点：\u3000-\u303f
+
+- 平假名：\u3040-\u309f
+
+- 片假名：\u30a0-\u30ff
+
+- 全角标点和半宽片假名：\uff00-\uffef
+
+- 中日韩unifed象形文字-汉字常见和罕见：\u4e00-\u9fa5
+
+- 中日韩统一表意文字扩展区A -罕见汉字：\u3400-\u4dbf
+
+# 22. Image2ASCII
+
+	from PIL import Image
+	import argparse
+
+	parser = argparse.ArgumentParser()
+
+	parser.add_argument('file')
+	parser.add_argument('-o','--output')
+	parser.add_argument('--width',type = int ,default = 272)
+
+	parser.add_argument('--height',type = int, default = 160)
+
+	args = parser.parse_args()
+
+	IMG = args.file
+	WIDTH = args.width
+	HEIGHT = args.height
+	OUTPUT = args.output
+
+	ascii_char = list("$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!;:,\"^`'.")
+
+	def get_char(r,b,g,alpha = 256):
+		if alpha == 0:
+			return ' '
+		length = len(ascii_char)
+		gray = int(0.2126*r+0.7152*g+0.0722*b)
+
+		unit = (256.0+1)/length
+		return ascii_char[int(gray/unit)]
+
+	if __name__ == '__main__':
+		im = Image.open(IMG)
+		im = im.resize((WIDTH,HEIGHT),Image.NEAREST)
+
+		txt = ""
+
+		for i in range(HEIGHT):
+			for j in range(WIDTH):
+				txt += get_char(*im.getpixel((j,i)))
+			txt += '\n'
+
+		print txt
+
+		if OUTPUT:
+			with open(OUTPUT,'w') as f:
+				f.write(txt)
+		else:
+			with open("output.txt",'w') as f:
+				f.write(txt)
+
 

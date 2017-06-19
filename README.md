@@ -421,4 +421,8 @@ http://www.jianshu.com/p/ae7c8513bb00
 			with open("output.txt",'w') as f:
 				f.write(txt)
 
+# 23. RGB转灰度
+
+`Gray = R * 0.299 + G * 0.587 + B * 0.114`
+
 

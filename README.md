@@ -350,9 +350,11 @@ http://www.sowang.com/link.htm
 
 http://www.jianshu.com/p/ae7c8513bb00
 
-# 21. 常用UTF-8编码范围
+# 21. 常用unicode编码范围
 
 - ASCII：\u00-\uff
+
+- 带有变音符号的拉丁文、希腊文、西里尔字母、亚美尼亚语、希伯来文、阿拉伯文、叙利亚文及马尔代夫语：\u0080-\u07ff
 
 - 日式标点：\u3000-\u303f
 
@@ -365,6 +367,8 @@ http://www.jianshu.com/p/ae7c8513bb00
 - 中日韩unifed象形文字-汉字常见和罕见：\u4e00-\u9fa5
 
 - 中日韩统一表意文字扩展区A -罕见汉字：\u3400-\u4dbf
+
+**中文汉字在utf-8中一般是3个字节，最常见的编码方式是1110xxxx 10xxxxxx 10xxxxxx**
 
 # 22. Image2ASCII
 

@@ -473,4 +473,8 @@ http://www.jianshu.com/p/ae7c8513bb00
 
 https://smallpdf.com/cn/
 
+# 26. 关于优化编译
+
+configure.exe -qt-libjpeg -qt-zlib -qt-libpng -qt-libjpeg -qt-gif -no-libtiff -no-libmng -nomake examples -nomake demos -no-webkit -nomake doc -no-plugin-manifests -no-exceptions -no-rtti -no-qt3support -no-openssl -no-opengl -no-multimedia -no-3dnow -no-native-gestures -no-style-motif -no-style-cde -no-style-cleanlooks -no-style-plastique -no-sql-sqlite -no-dbus -platform win32-msvc2008
+
 

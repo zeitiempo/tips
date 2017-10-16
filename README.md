@@ -480,43 +480,25 @@ https://smallpdf.com/cn/
 # 27. xlrd
        
 	data = xlrd.open_workbook('excelFile.xls')
-
         table = data.sheets()[0] #通过索引顺序获取
- 
         table = data.sheet_by_index(0) #通过索引顺序获取
-
-        table = data.sheet_by_name(u'Sheet1')#通过名称获取
- 　　
+        table = data.sheet_by_name(u'Sheet1')#通过名称获取　
         table.row_values(i)
- 
         table.col_values(i)
-　
         nrows = table.nrows
- 
-        ncols = table.ncols
-	
+        ncols = table.ncols	
         for i in range(nrows ):
       		print table.row_values(i)
- 
 	cell_A1 = table.cell(0,0).value
- 
 	cell_C4 = table.cell(2,3).value
-
 	cell_A1 = table.row(0)[0].value
- 
 	cell_A2 = table.col(1)[0].value
- 
+	###
 	row = 0
- 
 	col = 0
- 
 	# 类型 0 empty,1 string, 2 number, 3 date, 4 boolean, 5 error
-	ctype = 1 value = '单元格的值'
- 
+	ctype = 1 value = '单元格的值' 
 	xf = 0 # 扩展的格式化
- 
 	table.put_cell(row, col, ctype, value, xf)
- 
 	table.cell(0,0)  #单元格的值'
- 
 	table.cell(0,0).value #单元格的值'

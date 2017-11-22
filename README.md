@@ -502,3 +502,10 @@ https://smallpdf.com/cn/
 	table.put_cell(row, col, ctype, value, xf)
 	table.cell(0,0)  #单元格的值'
 	table.cell(0,0).value #单元格的值'
+
+# 28. 俄语重音词典
+
+《俄语重音规则》
+《俄语词重音基本规律》
+
+http://slovari.yandex.ru/dict/zarva

@@ -506,6 +506,11 @@ https://smallpdf.com/cn/
 # 28. 俄语重音词典
 
 《俄语重音规则》
+
 《俄语词重音基本规律》
 
 http://slovari.yandex.ru/dict/zarva
+
+# 29. Linux下Anaconda2与3共存
+
+https://www.cnblogs.com/zle1992/p/6720425.html

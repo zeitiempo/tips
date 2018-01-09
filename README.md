@@ -506,6 +506,19 @@ https://smallpdf.com/cn/
 # 28. 俄语重音词典
 
 《俄语重音规则》
+
 《俄语词重音基本规律》
 
 http://slovari.yandex.ru/dict/zarva
+
+# 29. Linux下Anaconda2与3共存
+
+https://www.cnblogs.com/zle1992/p/6720425.html
+
+# 30. 神经网络退化
+
+随着相乘矩阵的数量（即网络深度）增加，矩阵的乘积变得更加退化（线性相关）。随着网络深度增加，积矩阵的奇异值变得越来越集中，而小部分出现频率很低的奇异值变得任意的大。这种结果不仅仅和线性网络相关。在非线性网络中也会出现类似的现象：随着深度增加，给定层的隐藏单元的维度变得越来越低，即越来越退化。实际上，在有硬饱和边界的非线性网络中（例如 ReLU 网络），随着深度增加，退化过程会变得越来越快。
+
+https://severelytheoretical.wordpress.com/2018/01/01/why-is-it-hard-to-train-deep-neural-networks-degeneracy-not-vanishing-gradients-is-the-key/
+
+

@@ -317,9 +317,9 @@ export LIBRARY_PATH=/usr/lib/boost-1.60/lib:$LIBRARY_PATH
 
 - 合并查找算法（Union-find）——给定一组元素，该算法常常用来把这些元素分为多个分离的、彼此不重合的组。不相交集（disjoint-set）的数据结构可以跟踪这样的切分方法。合并查找算法可以在此种数据结构上完成两个有用的操作：
 
-- 查找：判断某特定元素属于哪个组。
+查找：判断某特定元素属于哪个组。
 
-- 合并：联合或合并两个组为一个组。
+合并：联合或合并两个组为一个组。
 
 - 维特比算法（Viterbi algorithm）——寻找隐藏状态最有可能序列的动态规划算法，这种序列被称为维特比路径，其结果是一系列可以观察到的事件，特别是在隐藏的Markov模型中。
 
@@ -520,5 +520,10 @@ https://www.cnblogs.com/zle1992/p/6720425.html
 随着相乘矩阵的数量（即网络深度）增加，矩阵的乘积变得更加退化（线性相关）。随着网络深度增加，积矩阵的奇异值变得越来越集中，而小部分出现频率很低的奇异值变得任意的大。这种结果不仅仅和线性网络相关。在非线性网络中也会出现类似的现象：随着深度增加，给定层的隐藏单元的维度变得越来越低，即越来越退化。实际上，在有硬饱和边界的非线性网络中（例如 ReLU 网络），随着深度增加，退化过程会变得越来越快。
 
 https://severelytheoretical.wordpress.com/2018/01/01/why-is-it-hard-to-train-deep-neural-networks-degeneracy-not-vanishing-gradients-is-the-key/
+
+# 31. tf w3cschool
+
+https://www.w3cschool.cn/tensorflow_python/list/
+
 
 

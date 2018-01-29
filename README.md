@@ -525,5 +525,8 @@ https://severelytheoretical.wordpress.com/2018/01/01/why-is-it-hard-to-train-dee
 
 https://www.w3cschool.cn/tensorflow_python/list/
 
+# 32. python3载入cifar
+
+load要加上encoding='latin1'
 
 

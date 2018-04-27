@@ -529,4 +529,7 @@ https://www.w3cschool.cn/tensorflow_python/list/
 
 load要加上encoding='latin1'
 
+# 33. 日语歌词检索
+
+http://www.kasi-time.com/
 

@@ -537,3 +537,6 @@ http://www.kasi-time.com/
 
 http://qianyix.com/
 
+# 35. 国立国语研究所データベース
+
+http://www.ninjal.ac.jp/database/

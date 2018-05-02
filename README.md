@@ -529,10 +529,14 @@ https://www.w3cschool.cn/tensorflow_python/list/
 
 load要加上encoding='latin1'
 
-# 33. 日语歌词检索
+# 33. 日语歌词检索（已停止更新）
 
 http://www.kasi-time.com/
 
 # 34. 千亿词霸（俄语词典，排版不是特别好）
 
 http://qianyix.com/
+
+# 35. 国立国语研究所データベース
+
+http://www.ninjal.ac.jp/database/
